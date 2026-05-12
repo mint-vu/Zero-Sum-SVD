@@ -2,6 +2,10 @@
   <img src="assets/zssvd-gpt-Photoroom.png" alt="Zero Sum SVD" width="250">
 </p>
 
+<p align="center">
+  <img src="assets/icml-badge.svg" alt="ICML 2026 Accepted" width="320">
+</p>
+
 <h1 align="center"><big><big>Zero Sum SVD: Balancing Loss Sensitivity for Low Rank LLM Compression</big></big></h1>
 
 
