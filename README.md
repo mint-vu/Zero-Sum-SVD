@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/zssvd-gpt-Photoroom.png" alt="Zero Sum SVD" width="250">
+  <img src="assets/paper-logo.svg" alt="Zero Sum SVD" width="300">
 </p>
 
 <p align="center">
