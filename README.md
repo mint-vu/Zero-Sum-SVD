@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2602.02848"><img src="https://img.shields.io/badge/arXiv-2602.02848-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://mint-vu.github.io/ZS-SVD/"><img src="https://img.shields.io/badge/Project-Page-blue.svg" alt="Project Page"></a>
   <a href="https://www.python.org/downloads/release/python-390/"><img src="https://img.shields.io/badge/Python-3.9-blue.svg" alt="Python 3.9"></a>
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-%E2%89%A52.0.1-EE4C2C.svg?logo=pytorch&logoColor=white" alt="PyTorch"></a>
   <a href="#"><img src="https://img.shields.io/badge/ICML-2026-red.svg" alt="Conference"></a>
