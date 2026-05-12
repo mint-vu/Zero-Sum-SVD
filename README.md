@@ -20,6 +20,8 @@
 > *MINT Lab, Vanderbilt University*
 >
 > International Conference on Machine Learning (ICML) 2026 &nbsp;·&nbsp; <sup>\*</sup>Equal contribution
+>
+> Project page: [mint-vu.github.io/ZS-SVD](https://mint-vu.github.io/ZS-SVD/)
 
 ## Overview
 
