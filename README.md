@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/icml-badge.svg" alt="ICML 2026 Accepted" width="240">
+  <img src="assets/icml-badge.svg" alt="ICML 2026 Accepted" width="210">
 </p>
 
 <h1 align="center"><big><big>Zero Sum SVD: Balancing Loss Sensitivity for Low Rank LLM Compression</big></big></h1>
