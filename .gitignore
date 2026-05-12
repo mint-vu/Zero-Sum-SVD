@@ -1,0 +1,8 @@
+.vscode/*
+cache/*
+**/__pycache__
+utils/c4-*
+*.pt
+*.png
+!assets/*.png
+!deltaL_analysis/*.png
