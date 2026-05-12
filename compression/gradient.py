@@ -12,7 +12,7 @@ from typing import Dict, List, Tuple, Optional, Any
 from tqdm import tqdm
 
 from utils.model_utils import get_layers, find_target_modules_in_layer
-from correction_utils import (
+from utils.correction_utils import (
     densify_target_modules,
     restore_target_modules,
 )

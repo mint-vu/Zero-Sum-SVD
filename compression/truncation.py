@@ -12,7 +12,7 @@ import torch.nn as nn
 from tqdm import tqdm
 
 from utils.model_utils import get_layers, find_target_modules_in_layer
-from correction_utils import (
+from utils.correction_utils import (
     get_module_from_key,
     get_module_current_rank,
     factorize_linear,

@@ -17,7 +17,7 @@ from utils.model_utils import (
     get_layers,
     find_target_modules_in_layer,
 )
-from correction_utils import get_module_from_key
+from utils.correction_utils import get_module_from_key
 
 # Optional 8-bit quantization via bitsandbytes
 try:

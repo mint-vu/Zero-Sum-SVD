@@ -7,11 +7,11 @@ import torch
 from tqdm import tqdm
 from utils.data_utils import get_calib_train_data
 from utils.model_utils import get_model_from_huggingface, get_model_from_local
-from evaluater import ppl_eval
+from utils.eval_utils import ppl_eval
 from utils.model_utils import LowRankLinear, get_layers, find_target_modules_in_layer
-from correction_utils import (extract_dense_weight, factorize_linear, replace_module,
+from utils.correction_utils import (extract_dense_weight, factorize_linear, replace_module,
     compute_dense_params, aggregate_stage_counts, run_svdllm_stage, run_gd_correction_after_truncation)
-from quant_utils import (quantize_target_modules_inplace, dequantize_target_modules_inplace,
+from utils.quant_utils import (quantize_target_modules_inplace, dequantize_target_modules_inplace,
     quant_dequant_roundtrip_targets_, _intermediate_eval_dtype)
 from compression.args import define_compression_args, validate_args, print_args_summary, build_experiment_tag
 from compression.profiling import compute_profiling_matrices, build_L_cache

@@ -35,7 +35,6 @@
 ```
 main_zero_sum.py            # main compression entry point
 evaluate_from_ckpt.py       # standalone evaluator (PPL + commonsense)
-evaluater.py                # ppl_eval primitive shared across entries
 convert_to_hf_style.py      # convert a saved .pt checkpoint to a HuggingFace folder
 
 compression/                # modular compression pipeline
@@ -53,11 +52,11 @@ compression/                # modular compression pipeline
 utils/
   model_utils.py              model loading + LowRankLinear primitive
   data_utils.py               calibration + test data loaders
+  eval_utils.py               ppl_eval primitive shared across entries
+  correction_utils.py         shared correction / densification helpers
+  quant_utils.py              bitsandbytes 8-bit quant/dequant
   LoRA.py                     LoRA fine-tuning script
   peft/                       vendored PEFT package
-
-correction_utils.py         shared correction / densification helpers
-quant_utils.py              bitsandbytes 8-bit quant/dequant
 ```
 
 ## Installation

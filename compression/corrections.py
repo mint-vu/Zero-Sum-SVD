@@ -13,14 +13,14 @@ from typing import Dict, List, Set, Optional
 from tqdm import tqdm
 
 from utils.model_utils import get_layers, find_target_modules_in_layer
-from correction_utils import (
+from utils.correction_utils import (
     extract_dense_weight,
     densify_target_modules,
     run_alpha_blend_between_stages,
 )
 from compression.gradient import compute_average_gradients
 from compression.batch_utils import _model_forward
-from evaluater import ppl_eval
+from utils.eval_utils import ppl_eval
 
 
 def run_pull_subspace_between_stages(

@@ -1,15 +1,9 @@
-import os
-import sys
-
 import torch
 import numpy as np
 from tqdm import tqdm
 
 from utils.data_utils import get_test_data
 
-current_path = os.path.dirname(os.path.abspath(__file__))
-parent_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(current_path)
 
 @torch.no_grad()
 def ppl_eval(model, tokenizer, datasets=['wikitext2', 'ptb', 'c4'], model_seq_len=2048, batch_size=32, device="cuda"):
@@ -62,4 +56,3 @@ def ppl_eval(model, tokenizer, datasets=['wikitext2', 'ptb', 'c4'], model_seq_le
     print("Weight Memory: {} MiB\n".format(torch.cuda.memory_allocated()/1024/1024))
 
     return ppls
-

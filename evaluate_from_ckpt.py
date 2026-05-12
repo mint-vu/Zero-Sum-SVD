@@ -6,8 +6,8 @@ from typing import Dict
 
 import torch
 
-from evaluater import ppl_eval
-from quant_utils import load_quantized_pt
+from utils.eval_utils import ppl_eval
+from utils.quant_utils import load_quantized_pt
 from compression.evaluation import (
     commonsense_eval,
     set_deterministic_seeds,
