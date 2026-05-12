@@ -21,13 +21,11 @@
   <rect x="6" y="10" width="334" height="44" rx="22" fill="url(#holo)"
         stroke="rgba(255,255,255,0.45)" stroke-width="1"/>
 
-  <!-- white indicator dot -->
-  <circle cx="34" cy="32" r="4.5" fill="white"/>
-
   <!-- text -->
-  <text x="56" y="38"
+  <text x="173" y="39"
+        text-anchor="middle"
         font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace"
-        font-size="14"
+        font-size="18"
         font-weight="700"
         letter-spacing="3.2"
         fill="white">ICML  2026  ·  ACCEPTED</text>
