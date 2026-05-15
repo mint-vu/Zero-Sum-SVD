@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/icml-badge.svg" alt="ICML 2026 Accepted" width="240">
+  <a href="https://icml.cc/virtual/2026/poster/61159"><img src="assets/icml-badge.svg" alt="ICML 2026 Accepted" width="240"></a>
 </p>
 
 <h1 align="center"><big><big>Zero Sum SVD: Balancing Loss Sensitivity for Low Rank LLM Compression</big></big></h1>
@@ -14,7 +14,7 @@
   <a href="https://mint-vu.github.io/ZS-SVD/"><img src="https://img.shields.io/badge/Project-Page-blue.svg" alt="Project Page"></a>
   <a href="https://www.python.org/downloads/release/python-390/"><img src="https://img.shields.io/badge/Python-3.9-blue.svg" alt="Python 3.9"></a>
   <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-%E2%89%A52.0.1-EE4C2C.svg?logo=pytorch&logoColor=white" alt="PyTorch"></a>
-  <a href="#"><img src="https://img.shields.io/badge/ICML-2026-red.svg" alt="Conference"></a>
+  <a href="https://icml.cc/virtual/2026/poster/61159"><img src="https://img.shields.io/badge/ICML-2026-red.svg" alt="Conference"></a>
 </p>
 
 > **[Zero Sum SVD: Balancing Loss Sensitivity for Low Rank LLM Compression](https://arxiv.org/abs/2602.02848)**
